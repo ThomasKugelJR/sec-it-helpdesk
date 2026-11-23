@@ -6,10 +6,10 @@ Secure IT Helpdesk is a proposed ticket management application intended to assis
 This document describes the application's planned functionality. The requirements are only preliminary and have not been verified against a working implementation.
 
 ## 2. Proposed Functional Requirements
+
 ### 2.1 Ticket Submission
 
 The application should allow authenticated users to submit technical support requests.
-
 Proposed ticket information includes:
 
 - Title of the ticket
@@ -20,9 +20,8 @@ Proposed ticket information includes:
 
 ### 2.2 Ticket Management
 
-The application should allow authenticated users to submit technical support requests.
-
-Proposed ticket information includes:
+The application should allow authorized support personnel to review submitted tickets and update their status as support requests progress toward resolution.
+Proposed ticket statuses include:
 
 - Open
 - In Progress
